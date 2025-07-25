@@ -17,54 +17,44 @@ export default function Hero() {
           {/* Left column - Text content */}
           <div className="text-center lg:text-left">
             {/* Trust indicator */}
-            <div className="flex items-center justify-center lg:justify-start gap-2 mb-6">
-              <div className="flex -space-x-2">
-                <div className="w-8 h-8 rounded-full bg-gradient-primary border-2 border-white"></div>
-                <div className="w-8 h-8 rounded-full bg-gradient-secondary border-2 border-white"></div>
-                <div className="w-8 h-8 rounded-full bg-gradient-primary border-2 border-white"></div>
-              </div>
-              <span className="text-sm text-white/70">Trusted by 150k+ sales teams</span>
-            </div>
+          {/* Trust indicator */}
+<div className="flex items-center justify-center lg:justify-start gap-2 mb-6">
+  <div className="flex -space-x-2">
+    <div className="w-8 h-8 rounded-full bg-gradient-primary border-2 border-white"></div>
+    <div className="w-8 h-8 rounded-full bg-gradient-secondary border-2 border-white"></div>
+    <div className="w-8 h-8 rounded-full bg-gradient-primary border-2 border-white"></div>
+  </div>
+  <span className="text-sm text-white">Trusted by 150k+ sales teams</span>
+</div>
 
-            {/* Main headline */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-white">
-              Your Sales Team,{" "}
-              <span className="gradient-text">Reinvented by AI</span>
-            </h1>
+{/* Main headline */}
+<h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-white drop-shadow-lg">
+  Your Sales Team,{" "}
+  <span className="text-indigo-200">Reinvented by AI</span>
+</h1>
 
-            {/* Subheadline */}
-            <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl">
-              Bastille automates your entire sales pipeline — from lead to close — with intelligent, 
-              scalable AI agents that work 24/7.
-            </p>
+{/* Subheadline */}
+<p className="text-lg md:text-xl text-white mb-8 max-w-2xl">
+  Bastille automates your entire sales pipeline — from lead to close — with intelligent, 
+  scalable AI agents that work 24/7.
+</p>
 
-            {/* CTA buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="xl" className="group">
-                Get Demo
-                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-              </Button>
-              <Button variant="glass" size="xl" className="group">
-                <Play className="w-5 h-5" />
-                See It in Action
-              </Button>
-            </div>
+{/* Stats */}
+<div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-white/10">
+  <div className="text-center lg:text-left">
+    <div className="text-2xl font-bold text-white">300%</div>
+    <div className="text-sm text-white/80">Conversion Increase</div>
+  </div>
+  <div className="text-center lg:text-left">
+    <div className="text-2xl font-bold text-white">24/7</div>
+    <div className="text-sm text-white/80">AI Automation</div>
+  </div>
+  <div className="text-center lg:text-left">
+    <div className="text-2xl font-bold text-white">99.9%</div>
+    <div className="text-sm text-white/80">Uptime</div>
+  </div>
+</div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-white/10">
-              <div className="text-center lg:text-left">
-                <div className="text-2xl font-bold gradient-text">300%</div>
-                <div className="text-sm text-white/60">Conversion Increase</div>
-              </div>
-              <div className="text-center lg:text-left">
-                <div className="text-2xl font-bold gradient-text">24/7</div>
-                <div className="text-sm text-white/60">AI Automation</div>
-              </div>
-              <div className="text-center lg:text-left">
-                <div className="text-2xl font-bold gradient-text">99.9%</div>
-                <div className="text-sm text-white/60">Uptime</div>
-              </div>
-            </div>
           </div>
 
           {/* Right column - Dashboard mockup */}

@@ -37,12 +37,6 @@ const features = [
     description: "Detects hot leads and sends urgency-based closing messages at perfect timing.",
     color: "from-pink-500 to-pink-600"
   },
-  {
-    icon: Users,
-    title: "Live Handoff Router",
-    description: "Prioritizes and routes high-LTV leads to real closers when needed.",
-    color: "from-emerald-500 to-emerald-600"
-  }
 ];
 
 export default function Features() {
