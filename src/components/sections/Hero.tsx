@@ -23,17 +23,17 @@ export default function Hero() {
                 <div className="w-8 h-8 rounded-full bg-gradient-secondary border-2 border-white"></div>
                 <div className="w-8 h-8 rounded-full bg-gradient-primary border-2 border-white"></div>
               </div>
-              <span className="text-sm text-muted-foreground">Trusted by 150k+ sales teams</span>
+              <span className="text-sm text-white/70">Trusted by 150k+ sales teams</span>
             </div>
 
             {/* Main headline */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-white">
               Your Sales Team,{" "}
               <span className="gradient-text">Reinvented by AI</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
+            <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl">
               Bastille automates your entire sales pipeline — from lead to close — with intelligent, 
               scalable AI agents that work 24/7.
             </p>
@@ -54,15 +54,15 @@ export default function Hero() {
             <div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-white/10">
               <div className="text-center lg:text-left">
                 <div className="text-2xl font-bold gradient-text">300%</div>
-                <div className="text-sm text-muted-foreground">Conversion Increase</div>
+                <div className="text-sm text-white/60">Conversion Increase</div>
               </div>
               <div className="text-center lg:text-left">
                 <div className="text-2xl font-bold gradient-text">24/7</div>
-                <div className="text-sm text-muted-foreground">AI Automation</div>
+                <div className="text-sm text-white/60">AI Automation</div>
               </div>
               <div className="text-center lg:text-left">
                 <div className="text-2xl font-bold gradient-text">99.9%</div>
-                <div className="text-sm text-muted-foreground">Uptime</div>
+                <div className="text-sm text-white/60">Uptime</div>
               </div>
             </div>
           </div>
@@ -79,12 +79,12 @@ export default function Hero() {
               {/* Floating cards */}
               <div className="absolute -top-4 -left-4 glass-card p-4 rounded-xl slide-up">
                 <div className="text-2xl font-bold gradient-text">318</div>
-                <div className="text-xs text-muted-foreground">New leads</div>
+                <div className="text-xs text-white/60">New leads</div>
               </div>
               
               <div className="absolute -bottom-4 -right-4 glass-card p-4 rounded-xl slide-up" style={{animationDelay: '0.2s'}}>
                 <div className="text-2xl font-bold gradient-text">$4,581</div>
-                <div className="text-xs text-muted-foreground">Earnings</div>
+                <div className="text-xs text-white/60">Earnings</div>
               </div>
             </div>
           </div>
